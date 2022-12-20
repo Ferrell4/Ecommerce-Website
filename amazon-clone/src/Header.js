@@ -1,20 +1,23 @@
 // use rfce for quick render
-import React from 'react'
-import './Header.css'
+import React from 'react';
+import './Header.css';
+import SearchIcon from '@mui/icons-material/Search';
+
 
 function Header() {
   return (
     <div className='header'>
         <img 
-        className='header_logo'
+        className='header__logo'
         // this links to a website, which is not ideal for real life
         src="http://pngimg.com/uploads/amazon/amazon_PNG11.png">
         </img>
 
         <div className="header__search">
             <input className="header__searchInput" type="text">
-                {/* Logo */}
             </input>
+            <SearchIcon className="header__searchIcon">
+            </SearchIcon>
         </div>
 
         <div className='header__nav'>
