@@ -10,3 +10,4 @@ npm install firebase
 cd amazon-clone
 npm start 
 npm install react-router-dom
+npm i react-currency-format --legacy-peer-deps
